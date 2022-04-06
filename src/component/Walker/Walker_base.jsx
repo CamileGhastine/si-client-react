@@ -8,7 +8,9 @@ export default function Walker_base() {
         <div >
             <Header />
             <Nav />
-            <div className="container"><Page /></div>
+            <div className="container">
+                <Page />
+            </div>
             <Footer />
         </div>
     );
